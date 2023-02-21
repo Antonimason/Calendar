@@ -1,0 +1,40 @@
+.card--container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #252525;
+    color: white;
+}
+
+.card-label {
+ width: 20%;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.card-info  {
+    width: 40%;
+    text-align: center;
+    overflow: scroll;
+}
+
+.card-date {
+    width: 30%;
+    text-align: center;
+}
+
+.card-delete {
+    width: 10%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor:pointer;
+}
